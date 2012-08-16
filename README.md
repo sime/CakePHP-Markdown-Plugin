@@ -27,6 +27,6 @@ BACKSTORY
 
 The current CakePHP Markdown Plugins/Helpers seem like a lot of fiddling
 to support Markdown. In my mind, quickly changing the viewClass is the
-simplest and cleanest way of support Markdown.
+simplest and cleanest way of implementing Markdown support.
 
 Happy to discuss if you have any other ideas.
