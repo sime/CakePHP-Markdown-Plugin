@@ -20,3 +20,12 @@ the action which view is marked up in Markdown syntax.
     {
         $this->viewClass = 'Markdown.Markdown';
     }
+
+BACKSTORY
+---------
+
+The current CakePHP Markdown Plugins/Helpers seem like a lot of fiddling
+to support Markdown. In my mind, quickly changing the viewClass is the
+simplest and cleanest way of support Markdown.
+
+Happy to discuss if you have any other ideas.
