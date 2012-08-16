@@ -1,4 +1,5 @@
 Markdown CakePHP Plugin
+=======================
 
 A CakePHP Plugin for rendering Markdowns views as HTML
 
