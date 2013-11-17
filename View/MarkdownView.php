@@ -31,6 +31,7 @@ class MarkdownView extends View
     public function __construct(Controller $controller = null)
     {
         parent::__construct($controller);
+        $this->ext = '.md';
         $this->Markdown = new Markdown_Parser();
     }
 
