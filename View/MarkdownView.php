@@ -63,9 +63,7 @@ class MarkdownView extends View
         if ($this->hasRendered) {
             return true;
         }
-        if (!$this->_helpersLoaded) {
-            $this->loadHelpers();
-        }
+        $this->loadHelpers();
         $this->Blocks->set('content', '');
 
         if ($view !== false && $viewFileName = $this->_getViewFileName($view)) {
